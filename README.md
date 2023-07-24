@@ -23,6 +23,7 @@ Request Parameters:
 * departure_date (string, format: "YYYY-MM-DD"): Date of departure.
 * return_date (string, format: "YYYY-MM-DD"): Date of return (for round-trip type). Optional.
 * trip_type (string, "one-way" or "round-trip"): Type of trip.
+* preferred_airline (string): Allow users to restrict search to selected airline only. Optional.
 
 Response:
 
