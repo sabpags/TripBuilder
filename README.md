@@ -44,7 +44,8 @@ Sample Request
     "arrival_airport": "YVR",
     "departure_date": "2023-07-25",
     "return_date": "2023-08-05",
-    "trip_type": "round-trip"
+    "trip_type": "round-trip",
+    "preferred_airline": ""
   }
 }
 
