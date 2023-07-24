@@ -18,12 +18,12 @@ Trip Builder API allows you to build and navigate trips for a single passenger u
 Description: Builds trips based on the provided criteria and returns the available trip options.
 
 Request Parameters:
-* departure_airport (string): IATA code of the departure airport.
-* arrival_airport (string): IATA code of the arrival airport.
-* departure_date (string, format: "YYYY-MM-DD"): Date of departure.
-* return_date (string, format: "YYYY-MM-DD"): Date of return (for round-trip type). Optional.
-* trip_type (string, "one-way" or "round-trip"): Type of trip.
-* preferred_airline (string): Allow users to restrict search to selected airline only. Optional.
+* departureAirport (string): IATA code of the departure airport.
+* arrivalAirport (string): IATA code of the arrival airport.
+* departureDate (string, format: "YYYY-MM-DD"): Date of departure.
+* returnDate (string, format: "YYYY-MM-DD"): Date of return (for round-trip type). Optional.
+* tripType (string, "one-way" or "round-trip"): Type of trip.
+* preferredAirline (string): Allow users to restrict search to selected airline only. Optional.
 
 Response:
 
@@ -32,10 +32,10 @@ Response:
     * flights (array): An array of flight details for each leg of the trip.
         * airline (string): Airline code.
         * number (string): Flight number.
-        * departure_airport (string): IATA code of the departure airport.
-        * departure_datetime (string, format: "YYYY-MM-DD HH:mm"): Departure date and time (in the local timezone of the departure airport).
-        * arrival_airport (string): IATA code of the arrival airport.
-        * arrival_datetime (string, format: "YYYY-MM-DD HH:mm"): Arrival date and time (in the local timezone of the arrival airport).
+        * departureAirport (string): IATA code of the departure airport.
+        * departureTime (string, format: "HH:mm"): Departure time (in the local timezone of the departure airport).
+        * arrivalAirport (string): IATA code of the arrival airport.
+        * arrivalTime (string, format: "HH:mm"): Arrival time (in the local timezone of the arrival airport).
         * price (string): The price of the flight in the neutral currency.
 
 
