@@ -4,8 +4,10 @@ Instructions to install and run program
 
 1. Download and install XAMPP to host PHP program
 2. Open XAMPP application and start the 'Apache Web Server'
-3. Place PHP program folder in the '/htdocs' folder that is located under the XAMPP folder on your local drive
-4. Once the files are placed, open your web browser and enter "localhost/TripBuilder/index.php" to begin the program
+3. Open terminal and navigate to the '/htdocs' folder that is located under the XAMPP folder on your local drive
+4. Type ' git clone https://github.com/sabpags/TripBuilder.git '
+5. This will place our PHP program files directly from the main branch from its github repository
+6. Once the files are placed, open your web browser and enter "localhost/TripBuilder/index.php" to begin the program
 
 # Trip Builder API Documentation
 
