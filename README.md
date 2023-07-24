@@ -41,46 +41,8 @@ Response:
 
 Sample Request
 
-{
-  "request": {
-    "departure_airport": "YUL",
-    "arrival_airport": "YVR",
-    "departure_date": "2023-07-25",
-    "return_date": "2023-08-05",
-    "trip_type": "round-trip",
-    "preferred_airline": ""
-  }
-}
+{"request":{"departureAirport":"YUL","arrivalAirport":"YVR","departureDate":"2023-07-25","arrivalDate":"2023-08-08","tripType":"round-trip","preferredAirline":""}}
 
 Sample Response
 
-{
-  "response": {
-    "trips": [
-      {
-        "price": "493.86",
-        "flights": [
-          {
-            "airline": "AC",
-            "number": "301",
-            "departure_airport": "YUL",
-            "departure_datetime": "2023-07-25 07:35",
-            "arrival_airport": "YVR",
-            "arrival_datetime": "2023-07-25 10:05",
-            "price": "373.23"
-          },
-          {
-            "airline": "AC",
-            "number": "302",
-            "departure_airport": "YVR",
-            "departure_datetime": "2023-08-05 11:30",
-            "arrival_airport": "YUL",
-            "arrival_datetime": "2023-08-05 19:11",
-            "price": "320.63"
-          }
-        ]
-      },
-      // Other available trips...
-    ]
-  }
-}
+{"response":{"trips":[{"price":"493.86","flights":[{"airline":"AC","number":"301","departureAirport":"YUL","departureTime":"07:35","arrivalAirport":"YVR","arrivalTime":"10:05","price":"273.23"},{"airline":"AC","number":"302","departureAirport":"YVR","departureTime":"11:30","arrivalAirport":"YUL","arrivalTime":"19:11","price":"220.63"}]}]}}
