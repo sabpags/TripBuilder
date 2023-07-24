@@ -1,5 +1,13 @@
 # TripBuilder
-Trip Builder API Documentation
+
+Instructions to install and run program
+
+1. Download and install XAMPP to host PHP program
+2. Open XAMPP application and start the 'Apache Web Server'
+3. Place PHP program folder in the '/htdocs' folder that is located under the XAMPP folder on your local drive
+4. Once the files are placed, open your web browser and enter "localhost/TripBuilder/index.php" to begin the program
+
+# Trip Builder API Documentation
 
 Trip Builder API allows you to build and navigate trips for a single passenger using criteria such as departure airport, departure dates, and arrival airport. It supports one-way and round-trip types, and it is written in PHP.
 
